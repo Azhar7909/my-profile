@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
@@ -22,15 +22,15 @@ export default function Footer() {
                                 <li> <p> Pakistan </p> </li>
                             </ul>
                         </div>
-                        {/* <div className="col-lg-3 col-sm-2 col-xs-3">
+                        <div className="col-lg-3 col-sm-2 col-xs-3">
                             <ul>
-                                <li> <h5> <Link href="/" style={{ marginTop: '5em' }}> HOME</Link> </h5></li>
-                                <li> <h5><Link href="/about"> ABOUT ME </Link> </h5></li>
-                                <li> <h5><Link href="/projects"> PROJECTS </Link> </h5></li>
-                                <li> <h5><a href="/skills"> SKILLS </a> </h5></li>
-                                <li> <h5><a href="https://web.facebook.com/?_rdc=1&_rdr"> CONTACT US </a> </h5></li>
+                                <li> <h5> <Link to="/" style={{ marginTop: '5em' }}> HOME</Link> </h5></li>
+                                <li> <h5><Link to="/about"> ABOUT ME </Link> </h5></li>
+                                <li> <h5><Link to="/projects"> PROJECTS </Link> </h5></li>
+                                <li> <h5><Link to="/skills"> SKILLS </Link> </h5></li>
+                                <li> <h5><Link to="#footer"> CONTACT US </Link> </h5></li>
                             </ul>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
                 <div className="footer-bottom">
