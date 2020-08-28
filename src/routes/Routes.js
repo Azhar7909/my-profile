@@ -6,6 +6,7 @@ import HomeScreen from '../screens/HomeScreen';
 import Footer from '../components/Footer'
 import AboutScreen from '../screens/AboutScreen';
 import ProjectScreen from '../screens/ProjectScreen';
+import SkillsScreen from '../screens/SkillsScreen';
 
 
 export default function Routes() {
@@ -17,6 +18,7 @@ export default function Routes() {
                     <Route exact path="/" component={HomeScreen} />
                     <Route exact path="/about" component={AboutScreen} />
                     <Route exact path="/projects" component={ProjectScreen} />
+                    <Route exact path="/skills" component={SkillsScreen} />
                     <Route  path="*" component={NotDefinedScreen} />
                 </Switch>
                 <Footer />

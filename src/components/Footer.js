@@ -34,7 +34,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <div className="container">
+                    <div id="footer" className="container">
                         <p className="pull-left copyright text-center"> Made By Azhar Hussain </p>
                     </div>
                 </div>

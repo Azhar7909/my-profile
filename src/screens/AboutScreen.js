@@ -5,7 +5,7 @@ import '../App.css'
 export default function AboutScreen() {
     return (
         <div className="aboutDiv">
-            <section className="about-section my-5 py-5" id="about" >
+            <section className="about-section py-5" >
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 text-center">
