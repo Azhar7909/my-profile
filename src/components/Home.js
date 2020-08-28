@@ -5,7 +5,7 @@ import '../App.css';
 export default function Home() {
     return (
         <div>
-            <section className="home-section" id="carouselFull">
+            <section className="home-section" >
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
@@ -16,7 +16,7 @@ export default function Home() {
                         </div>
                         <div className="col-md-6 text-center">
                             <div className="home-img">
-                                <img src={profileImage} className="img-responsive w-50" />
+                                <img src={profileImage} className="img-responsive w-50" alt="Profile" />
                             </div>
                         </div>
                     </div>

@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+// import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
         <footer>
-            <div className="footer mt-5" id="footer">
+            <div className="footer">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center">
@@ -15,21 +16,21 @@ export default function Footer() {
                         <div className="col-lg-3 col-sm-2 col-xs-3">
                             <h3> Contact </h3>
                             <ul>
-                                <li><a className="email" href="#"> muhammadazharhussain54@gmail.com </a></li>
+                                <li><a className="email" href="#top"> muhammadazharhussain54@gmail.com </a></li>
                                 <br />
                                 <li> <p> Multan </p> </li>
                                 <li> <p> Pakistan </p> </li>
                             </ul>
                         </div>
-                        <div className="col-lg-3 col-sm-2 col-xs-3">
+                        {/* <div className="col-lg-3 col-sm-2 col-xs-3">
                             <ul>
-                                <li> <h5> <a href="#carouselFull" style={{ marginTop: '5em' }}> HOME</a> </h5></li>
-                                <li> <h5><a href="#about"> ABOUT ME </a> </h5></li>
-                                <li> <h5><a href="#projects"> PROJECTS </a> </h5></li>
-                                <li> <h5><a href="#skills"> SKILLS </a> </h5></li>
-                                <li> <h5><a href="#footer"> CONTACT US </a> </h5></li>
+                                <li> <h5> <Link href="/" style={{ marginTop: '5em' }}> HOME</Link> </h5></li>
+                                <li> <h5><Link href="/about"> ABOUT ME </Link> </h5></li>
+                                <li> <h5><Link href="/projects"> PROJECTS </Link> </h5></li>
+                                <li> <h5><a href="/skills"> SKILLS </a> </h5></li>
+                                <li> <h5><a href="https://web.facebook.com/?_rdc=1&_rdr"> CONTACT US </a> </h5></li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="footer-bottom">

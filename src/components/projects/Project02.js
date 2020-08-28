@@ -1,16 +1,17 @@
-import React from 'react'
+import React from 'react';
+import expensep02 from '../../assets/images/expensep02.png';
 
 export default function Project02() {
     return (
 
-        <div className="col-md-4">
+        <div className="col-md-4 mb-4">
             <div className="card">
-                <img onClick="openUrl('http://sh-axiom-p01-js-projects.surge.sh/');" className="card-img-top" src="./Images/image_2020_08_09T18_20_45_963Z.png" alt="Card image cap" />
+                <img className="card-img-top" height="200px" src={expensep02} alt="Expense" />
                 <div className="card-body">
-                    <h5 className="card-title">Project 02</h5>
-                    <p className="card-text">In this project, I created a form validator. This is made in HTML, CSS and Javascript</p>
-                    <a href="p01/index.html" target="_blank" className="btn btn-primary">Surge link</a>
-                    <a href="https://github.com/samiullahhashmi/axiom-cnc-7-projects/tree/master/p01" target="_blank" className="btn btn-primary">Gitub link</a>
+                    <h5 className="card-title">Expense Tracker App</h5>
+                    <p className="card-text">In this project, I created an Expense Tracker. This is made in React Javascript</p>
+                    <a href="http://graceful-hot.surge.sh/" target="blank" className="btn btn-primary">Surge link</a>
+                    <a href="https://github.com/Azhar7909/expenses" target="blank" className="btn btn-primary ml-2">Gitub link</a>
                 </div>
             </div>
         </div>

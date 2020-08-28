@@ -5,7 +5,7 @@ import Project03 from '../components/projects/Project03';
 
 export default function ProjectScreen() {
     return (
-        <section className="projects" >
+        <section className="projects pt-5" >
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center">
