@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+/* NavBar */
+.navbar {
+  background-color: #002147 !important;
+  color: white !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Home */
+.home-content p {
+    color: black;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 28px;
+    font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.home-img  {
+  animation: bounce 6s alternate infinite ease-in-out;
+}
+@keyframes bounce {
+  0%,
+  100% {
+      transform: translateY(50px);
+  }
+
+  50% {
+      transform: translateY(-20px);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Not Found */
+.messsage{
+padding: 100px;
+text-align: center;
+color: darkred;
 }
 
-.App-link {
-  color: #61dafb;
+/* About */
+.aboutDiv{
+  margin-bottom: -3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-section{
+  color: black;
+  background: #f7df1e;
+}
+
+.imgRounded {
+  border-radius: 50% !important;
+}
+
+/* Footer */
+.go-up {
+	background-color: rgb(63, 2, 2);
+	color: #002147;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	margin-top: -50px !important;
+	border: 5px solid white;
+
+}
+.go-up:hover {
+  background-color: #002147;
+	text-decoration: none;
+	color: #fff
+}
+
+.footer {
+background: #002147;
+height: auto;
+padding-bottom: 30px;
+position: relative;
+width: 100%;
+border-bottom: 1px solid #CCCCCC;
+border-top: 1px solid #DDDDDD;
+margin-top: 5rem;
+}
+.footer p {
+margin: 0;
+}
+.footer img {
+max-width: 100%;
+}
+.footer h3 {
+color: white;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+padding: 40px 0 0px;
+text-transform: uppercase;
+margin-bottom: 15px;
+}
+
+.footer h4 {
+color: white;
+font-size: 2em;
+font-weight: 600;
+line-height: 38px;
+padding: 40px 0 10px;
+font-family: cursive;
+font-weight: lighter
+}
+
+.footer ul {
+font-size: 13px;
+list-style-type: none;
+margin-left: 0;
+padding-left: 0;
+margin-top: 0px;
+color: #7F8C8D;
+padding: 0 0 8px 0;
+}
+
+.email{
+border-bottom: 3px solid #fff;
+}
+.footer ul li a {
+padding: 0 0 12px 0;
+display: block;
+}
+.footer a {
+color: white;
+font-weight: lighter;
+}
+
+.footer p {
+color: white;
+font-weight: lighter;
+}
+
+.footer a:hover {
+text-decoration:none;
+
 }
